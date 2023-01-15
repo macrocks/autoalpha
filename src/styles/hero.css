@@ -1,0 +1,89 @@
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.hero__content,
+.hero__img {
+  color: #fff;
+  width: 50%;
+}
+
+.hero__img img {
+  width: 100%;
+}
+
+.hero__content {
+  padding-top: 60px;
+}
+
+.hero__content h2 {
+  line-height: 45px;
+  font-size: 2rem;
+}
+
+.hero__content p {
+  margin-top: 40px;
+  font-size: 1.1rem;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+.hero__btns {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+.primary__btns,
+.secondary__btns {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.primary__btns {
+  background-color: var(--btn-secondary-bg);
+  border: 1px solid var(--btn-primary-bg);
+}
+
+.secondary__btns {
+  background: var(--btn-primary-bg);
+}
+
+
+@media only screen and (max-width: 992px){
+  .hero__content h2{
+    font-size: 2rem;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .hero__content h2{
+    font-size: 1.5rem;
+    line-height: 45px;
+  }
+.hero__content p{
+  font-size: 0.9rem;
+}
+.primary__btns,.secondary__btns{
+  font-size: 0.8rem;
+}
+}
+
+@media only screen and (max-width: 600px){
+.hero__img, .hero__content{
+  width: 100%;
+}
+  .hero__wrapper{flex-direction: column;
+  }
+
+}

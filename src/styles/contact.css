@@ -1,0 +1,16 @@
+.contact__top-content{
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+
+.contact__content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact__form label{
+    color: white;
+    
+}
