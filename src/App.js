@@ -8,7 +8,6 @@ import About from './components/UI/About';
 import Team from './components/UI/Team';
 import Testimonial from './components/UI/Testimonial';
 import Footer from './components/UI/Footer';
-import Contact from './components/UI/Contact';
 
 function App() {
 
